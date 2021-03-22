@@ -20,7 +20,6 @@ export default function App() {
           min="10"
           max="200"
           value={spacing}
-          data-sizing="px"
         />
 
         <label htmlFor="blur">Blur:</label>
@@ -31,7 +30,6 @@ export default function App() {
           min="0"
           max="25"
           value={blur}
-          data-sizing="px"
         />
 
         <label htmlFor="base">Base Color</label>
